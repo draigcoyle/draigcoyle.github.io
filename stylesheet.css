@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Space+Mono');
+@media only screen and (min-width: 800px) {
+    .current {
+        font-weight:bold;
+    }
+    body {
+        width: 100%;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        padding: 0;
+        margin: 0;
+        background-image: url("Assets/Dark-Deep-Space-4K-Wallpaper.jpg");
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+    }
+
+    #highlight {
+        font-family: 'Space Mono', monospace;
+        font-size: 4rem;
+    }
+
+    #white {
+        color: white;
+    }
+
+    canvas {
+        background-color: white;
+        border-radius: 5em;
+        margin: 1rem;
+        width: 30%;
+    }
+
+    #title {
+        display: block;
+        margin: auto;
+    }
+
+    #craig {
+        margin: none;
+    }
+
+    img.2i {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    nav {
+        background-color: #414a4c;
+        border-radius: 500px;
+        display: inline-block;
+        color: #FFFFFF;
+        width: 60%;
+        padding-bottom: 1em;
+        text-align: center;
+        margin: 0 20% 0 20%;
+    }
+
+    li {
+        margin:0 3rem 0 3rem;
+        display: inline-block;
+        color: #FFFFFF;
+        text-decoration: none;
+        list-style-type: none;
+    }
+
+    a {
+        color: white;
+    }
+
+    p {
+        font-size: 2rem;
+    }
+
+    #main {
+        width: 100%;
+        float: center;
+        color: red;
+        text-align: center;
+    }
+
+    #main2 {
+        width: 100%;
+        text-align: center;
+        float: center;
+        vertical-align: middle;
+    }
+
+    #main3 {
+        width: 100%;
+        text-align: center;
+        float: center;
+        vertical-align: middle;
+        color: red;
+        font-size: 5rem;
+    }
+
+    #main4 {
+        width: 100%;
+        text-align: center;
+        float: center;
+        vertical-align: middle;
+        color: red;
+        font-size: 3rem;
+    }
+
+    #professionimg {
+        align-content: flex-start;
+        width: 40%;
+        height: 500px;
+        margin-left: 5em;
+        border: 2px solid #ff0000;
+        border-radius: 200px;
+        object-fit: cover;
+    }
+
+    #p1 {
+        align-content: flex-end;
+        color: red;
+        font-size: 2rem;
+        width: 50%;
+        float: right;
+        margin-top: 5%;
+        margin-right: 2%;
+        height: 200px;
+    }
+
+    #mybutton {
+        width: 20%;
+        align-content: flex-start;
+        float: right;
+        height: 100px;;
+        cursor: pointer;
+    }
+
+    #doyle {
+        width: 80%;
+        text-align: center;
+        color: red;
+        font-size: 2rem;
+        margin: 0 10% 0 10%;
+    }
+
+    #map {
+        float: right;
+        margin-left: 15%;
+    }
+
+    .next {
+        font-size: 20px;
+        color: red;
+        float: right;
+        margin-right: 10%;
+    }
+
+    footer {
+        margin: 10px;
+        height: 5px;
+        border-radius: 500px;
+        background-color: #414a4c;
+        clear: both;
+        padding-bottom: 1em;
+        padding-right: 1em;
+        text-align: right;
+    }
+    p{
+        width:100%;
+    }
+}
+#main7 {
+    width: 80%;
+    text-align: center;
+    color: red;
+    font-size: 2rem;
+    margin: 0 10% 0 10%;
+}
+
+@media only screen and (max-width: 799px) {
+    canvas{
+        width: 80%;
+        background-color:white;
+    }
+    .current {
+        font-weight:bold;
+    }
+        body {
+        width: 100%;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        padding: 0;
+        margin: 0;
+        background-image: url("Assets/Dark-Deep-Space-4K-Wallpaper.jpg");
+        font-family: 'Open Sans', sans-serif;
+        color: white;
+        text-align: center;
+    }
+         #highlight {
+        font-family: 'Space Mono', monospace;
+        font-size: 60px;
+    }
+          img {
+        width:80%;
+    }
+    ul {
+        border: solid 2px black;
+        border-radius: 10px;
+        background-color: rgba(0,0,0,0.5)
+    }
+              li {
+        display: inline;
+        color: #FFFFFF;
+        text-decoration: none;
+        width: 80%;
+        list-style-type: none;
+        margin: .5em;
+    }
+    h3{
+        color:red;
+    }
+    #craig{
+        color:red;
+    }
+    #p1 {
+        color: red;
+    }
+    a {
+        color: white;
+        text-decoration: none;
+    }
+    iframe{
+        width:80%;
+        height: 330px;
+    }
+}
