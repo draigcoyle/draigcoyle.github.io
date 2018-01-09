@@ -167,6 +167,9 @@
     p{
         width:100%;
     }
+    #soz{
+        display:none;
+    }
 }
 #main7 {
     width: 80%;
@@ -180,6 +183,7 @@
     canvas{
         width: 80%;
         background-color:white;
+        display:none;
     }
     .current {
         font-weight:bold;
@@ -231,5 +235,8 @@
     iframe{
         width:80%;
         height: 330px;
+    }
+    #buttons{
+        display:none;
     }
 }
