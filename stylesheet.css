@@ -1,5 +1,5 @@
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width:800px) {
     .current {
         font-weight:bold;
     }
@@ -38,6 +38,8 @@
 
     #craig {
         margin: none;
+        width: 70%;
+        margin-left: 15%;
     }
 
     img.2i {
