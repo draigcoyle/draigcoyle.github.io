@@ -1,12 +1,12 @@
 window.onload = function () {
-    pads();
+    logo();
 }
 
 var canvas, colour, button, label, size, save;
 var ctx;
 var lastX, lastY;
 var mousePressed = false;
-function pads() {
+function logo() {
     console.log("pads fired")
 
 
@@ -31,7 +31,7 @@ function pads() {
     colour.name = "colour";
     colour.value = "#000000";
 
-    //size
+    //size of paint brush
     size = document.getElementById('size');
     size.type = "range";
     size.name = "size";
@@ -150,7 +150,7 @@ function pads() {
 }
 function Draw(x, y, isDown) {
     if (isDown) {
-        //check if image is to draw on canvas
+        //checks if image is drawn on the canvas
         ctx.beginPath();
         ctx.strokeStyle = colour.value;
         ctx.lineWidth = size.value;
@@ -160,11 +160,11 @@ function Draw(x, y, isDown) {
         ctx.closePath();
         ctx.stroke();
     }
-    //must upate lastx and y to use for move to and line to
+    
     lastX = x - canvas.offsetLeft;
     lastY = y - canvas.offsetTop;
 }
-
+//allows the user to save their org logo
 function Save() {
     console.log(canvas.toDataURL());
     var image = canvas.toDataURL();
@@ -175,7 +175,7 @@ function Save() {
     localStorage.setItem("colour", colour.value)
     localStorage.setItem("size", size.value)
 }
-
+//allows the user to load their org logo
 function Load() {
 
     colour.value = localStorage.getItem("colour");
