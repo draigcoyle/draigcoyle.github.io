@@ -1,5 +1,6 @@
 ﻿window.onload = function(){
     slider();
+    //next button
 }
 function slider(){
     console.log("Slider fired");
@@ -7,7 +8,8 @@ function slider(){
     mybutton = document.getElementById("mybutton");
         mybutton.addEventListener('click', nextClicked(), false);
 
-    }
+}
+//arrays of text and images
 function nextClicked() {
     var proimg = new Array();
     proimg[0] = "Assets/prof1.jpg";
@@ -28,6 +30,7 @@ function nextClicked() {
             p1.innerHTML = protxt[counter % protxt.length];
         }
 }
+//geolocation
 function myMap() {
     var maploc = {
         center: new google.maps.LatLng(53.328787, -2.230669),
